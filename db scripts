@@ -13,7 +13,7 @@ CREATE TABLE [dbo].[Vehicles]
 
 CREATE TABLE [dbo].[Owners]
 (
-	[TUID] INT NOT NULL, 
+	[TUID] INT NOT NULL Identity(1,1), 
     [FirstName] NVARCHAR(50) NULL, 
     [LastName] NCHAR(50) NULL, 
     [StreetAddress] NCHAR(50) NULL, 
